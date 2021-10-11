@@ -64,7 +64,7 @@ finity.theme = { -- dark
 
 	text_color = Color3.fromRGB(206, 206, 206),
 
-	category_button_background = Color3.fromRGB(63, 62, 65),
+	category_button_background = Color3.fromRGB(37, 36, 38),
 	category_button_border = Color3.fromRGB(72, 71, 74),
 
 	checkbox_checked = Color3.fromRGB(132, 255, 130),
@@ -231,7 +231,7 @@ function finity.new(isdark, gprojectName, thinProject)
 		BackgroundColor3 = theme.main_container,
 		BorderSizePixel = 0,
 		Position = UDim2.new(0.5, 0, 0.5, 0),
-		Size = UDim2.new(0, 400, 0, 500),
+		Size = UDim2.new(0, 320, 0, 400),
 		ZIndex = 2,
 		ImageTransparency = 1
     })
