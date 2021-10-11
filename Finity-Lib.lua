@@ -22,7 +22,7 @@
 local finity = {}
 finity.gs = {}
 
-finity.theme = { -- light
+finity.light_theme = { -- light
 	main_container = Color3.fromRGB(249, 249, 255),
 	separator_color = Color3.fromRGB(223, 219, 228),
 
@@ -58,7 +58,7 @@ finity.theme = { -- light
 	scrollbar_color = Color3.fromRGB(198, 189, 202),
 }
 
-finity.dark_theme = { -- dark
+finity.theme = { -- dark
 	main_container = Color3.fromRGB(32, 32, 33),
 	separator_color = Color3.fromRGB(63, 63, 65),
 
